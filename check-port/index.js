@@ -20,8 +20,10 @@ function checkConnection(host, port, timeout) {
   });
 }
 
-checkConnection('nodejs.org', 443).then(function() {
-  console.log('open')
+const params = process.argv.splice(2)
+
+checkConnection(params[0], params[1]).then(function() {
+  console.log(`[${params[0]}:${params[1]}] is opening`)
 }, function(err) {
   console.log(err)
 })
