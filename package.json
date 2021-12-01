@@ -1,17 +1,19 @@
 {
   "name": "js-script-tools",
   "version": "1.0.0",
-  "description": "js-script-tools",
+  "description": "script for life.",
   "main": "index.js",
   "scripts": {
+    "check-port": "node check-port/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreaharris-go/js-script-tools.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Duckdev84",
+  "email": "duckdev84@gmail.com",
+  "licenses": "ISC",
   "bugs": {
     "url": "https://github.com/andreaharris-go/js-script-tools/issues"
   },
